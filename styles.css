@@ -1,0 +1,79 @@
+.nav{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:flex-end;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-size-adjust: 13px;
+    padding: 16px 30px 16px 12px;
+}
+
+.navbar {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: initial;
+    position: relative;
+}
+  
+.box1 { background:white;}
+.box2 { background:white;}
+.box3 { background:white;}
+.box4 { background:white;}
+.box5 { background:white;}
+.box6 { background:white;}
+.box7 { background:white;}
+.box8 { background:white;}
+.box9 { background:white;}
+.box10 { background:white;}
+.box11 { background:white;}
+.box12 { background:white;}
+
+.slide-frame{
+    overflow: hidden;
+    height: auto;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10%{left:0px;}
+    20%{left:1200px;}
+    30%{left:1200px;}
+    40%{left:2400px;}
+    50%{left:2400px;}
+    60%{left:1200px;}
+    70%{left:1200px;}
+    80%{left:0px;}
+    90%{left:0px;}
+    100%{left:0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400;
+    position:relative;
+    -webkit-animation-name: slide-animation;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction:alternate;
+}
+
+.imagecontainer{
+    height: 800px;
+    width: 1200;
+    position: relative;
+    float: left;
+}
+
+.butttonbar{
+    display: flex;
+    flex-direction: column;  
+    justify-content:space-around;
+    align-content: first baseline;
+}
