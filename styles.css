@@ -32,7 +32,7 @@
 .box11 { background:white;}
 .box12 { background:white;}
 
-.slide-frame{
+/* /* .slide-frame{
     overflow: hidden;
     height: auto;
     width: auto;
@@ -70,7 +70,7 @@
     width: 1200;
     position: relative;
     float: left;
-}
+} */
 
 .buttonbar{
     display: flex;
@@ -79,7 +79,24 @@
     align-content: first baseline;
 }
 
-.valorant{
+.ADcontainer{
     display: flex;
-    margin-left: 0%;
+    flex-direction: row;
+    justify-content:center;
+    
+}
+
+.column1{
+    display: flex;
+    grid-auto-flow: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.column2{
+    display: flex;
+    
+    grid-auto-flow: row;
+    align-items: center;
+    flex-wrap: wrap;
 }
